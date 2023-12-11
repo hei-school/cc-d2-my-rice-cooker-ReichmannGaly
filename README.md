@@ -14,7 +14,6 @@ This is a simple rice cooker management system implemented in Typescript. This a
 - Plug In
 - Plug Out
 
-
 ---
 
 ## Usage
@@ -33,16 +32,28 @@ Before running the application, ensure that you have Node.js and Typescript inst
     cd cc-d2-my-rice-cooker-ReichmannGaly/
 
     git checkout feature/Typescript
+    ```
 
 3. Install dependencies:
+
     ```bash
     npm install
+    ```
 
-4. Run the typescript **main.ts** file:
+4. **Apply ESLint for Code Consistency:**
+   Before running the application, ESLint has been applied to ensure consistent code style and quality. Run the following command to fix linting issues:
+
+    ```bash
+    npm run lint -- --fix
+    ```
+
+5. Run the Typescript **main.ts** file:
+
     ```bash
     npx ts-node .\main.ts 
+    ```
 
-5. Follow the on-screen prompts to manage your rice cooker items efficiently.
+6. Follow the on-screen prompts to manage your rice cooker items efficiently.
 
 ---
 
